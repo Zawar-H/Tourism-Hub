@@ -1,0 +1,258 @@
+.about .section1 {
+  background-image: url("/aboutusimg.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+  color: whitesmoke;
+  height: 500px;
+  background-position-y: 700px;
+  padding: 30px;
+}
+
+.about .title {
+  font-size: 40px; /* Adjust font size as needed */
+  margin-bottom: 10px; /* Adjust margin as needed */
+  max-width: 100%;
+  font-weight: bold;
+  filter: brightness(100%);
+}
+
+.about .normaltext {
+  font-size: 18px; /* Adjust font size as needed */
+  width: fit-content;
+}
+
+.about .blocksec {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  padding: 0px;
+  margin: 0px;
+  background: whitesmoke;
+}
+.about .whowearetext {
+  display: flex;
+  justify-content: start;
+  padding: 30px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  flex-direction: column;
+  width: 30%;
+  height: fit-content;
+  font-size: 18px;
+  gap: 10px;
+  background: #fff;
+  min-height: 350px;
+}
+
+.about .whoweareimg {
+  width: 30%;
+}
+
+.about .section2 {
+  padding: 100px 0px;
+  background: whitesmoke;
+}
+
+.about .section3 {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  width: 100%;
+  padding: 100px;
+}
+
+.about .statssection {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0px 30px;
+}
+
+.about .abouticon {
+  width: 40%;
+  height: 35%;
+  flex-shrink: 0;
+}
+
+.about .subheading2{
+  font-size: 24px;
+}
+
+.about .ourteamtext{
+  width: 100%;
+  padding: 0px 130px;
+}
+
+.about .teammember{
+  width: 237px;
+  height: 357px;
+  flex-shrink: 0;
+}
+
+.about .teammembers{
+  width: 100%;
+  padding: 10px 100px;
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.about .membersec{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  width: 300px;
+}
+
+.about .btnsec{
+  display: flex;
+  justify-content: center;
+}
+
+.about .hollow-green-btn{
+  width: 18%;
+  height: fit-content;
+  padding: 10px 0px;
+}
+
+.about ul{
+  list-style-type: square;
+}
+
+@media (max-width: 1200px) {
+  .about .normaltext {
+    font-size: 16px; /* Adjust font size as needed */
+    width: fit-content;
+  }
+
+  .about .subheading2{
+    font-size: 22px;
+  }
+
+  .about .section1{ 
+    background-position-y: center;
+  }
+  .about .title {
+    font-size: 36px; /* Adjust font size as needed */
+  }
+
+  .about .whowearetext {
+    font-size: 14px;
+  }
+
+  .about .ourteamtext{
+    width: 80%;
+    padding: 0px 70px;
+    margin-bottom: 30px;
+  }
+
+  .about .section3 {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    width: 100%;
+    padding: 40px;
+  }
+
+  .about .teammember{
+    width: 166px;
+    height: 250px;
+  }
+
+  .about .hollow-btn{
+    font-size: 18px;
+    width: 20%;
+    height: 55%;
+  }
+
+  .about .light-green-btn{
+    font-size: 18px;
+    width: 20%;
+    height: 55%;
+  }
+
+  .about .horizontal{
+    width: 80%;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .about .hollow-green-btn{
+    font-size: 18px;
+  }
+
+  .about .teammembers{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  
+    gap: 50px;
+  }
+}
+
+@media (max-width: 877px) {
+  .about .normaltext {
+    font-size: 12px; /* Adjust font size as needed */
+    width: fit-content;
+  }
+
+  .about .section1{ 
+    height: 400px;
+  }
+
+  .about .subheading2{
+    font-size: 16px;
+  }
+
+  .about .title {
+    font-size: 30px; /* Adjust font size as needed */
+  }
+
+  .about .whowearetext {
+    font-size: 12px;
+  }
+
+  .about .teammembers{
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: start;
+  
+    gap: 50px;
+  }
+
+  .about .ourteamtext{
+    width: 80%;
+    padding: 0px 70px;
+    margin-bottom: 30px;
+  }
+
+  .about .hollow-btn{
+    font-size: 16px;
+  }
+
+  .about .light-green-btn{
+    font-size: 16px;
+  }
+
+  .about .hollow-green-btn{
+    font-size: 16px;
+  }
+
+  .about .section2{
+    padding: 50px 0px;
+  }
+}
+

@@ -1,0 +1,66 @@
+/* Style for the event card container */
+.event-card {
+  width: 100%;
+  max-width: 400px; /* Adjust the maximum width as needed */
+  min-width: 300px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+.event-card .img {
+  width: 100%;
+  height: 60%; 
+  object-fit: cover;
+}
+
+.event-details {
+  padding: 18px;
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.event-date {
+  font-size: 20px;
+  font-weight: bold;
+  color: #555555;
+  padding: 20px;
+}
+
+.event-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+/* Style for the event description */
+.event-description {
+  font-size: 14px;
+  color: #777777;
+}
+
+.event-card .bottom{
+  font-size: 18px;
+  display: flex;
+  justify-content: start;
+}
+
+.event-card .NVsi{
+  width: 50%;
+  align-items: center;
+  justify-content: center;  
+}
+
+.event-card .NVsu{
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;  
+}

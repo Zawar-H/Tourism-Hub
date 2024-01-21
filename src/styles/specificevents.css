@@ -1,0 +1,329 @@
+.specificevent .FAQ{
+  width: fill;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto Condensed" - sans-serif;
+  margin: 20px 100px;
+}
+
+.specificevent .faqtext{
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.specificevent .greensub2{
+  margin-top: 20px;
+  font-size: 24px;
+  color: var(--color-green);
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.faqcomp{
+  width: 716px;
+  height: fit-content;
+  flex-shrink: 0;
+  border-radius: 9px;
+  background: #FFF;
+  font-size: 18px;
+  border: 1px solid whitesmoke;
+  box-shadow: 0px 10px 25px -6px rgba(0, 0, 0, 0.10);
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 10px;
+  padding: 10px 20px;
+}
+
+.dropdowncomp{
+  width: 716px;
+  height: fit-content;
+  flex-shrink: 0;
+  border-radius: 9px;
+  background: #FFF;
+  font-size: 18px;
+  border: 1px solid whitesmoke;
+  box-shadow: 0px 10px 25px -6px rgba(0, 0, 0, 0.10);
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 10px;
+  padding: 10px 20px;
+}
+
+.specificevent .undermap{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 60px;
+  border-radius: 0px 0px 40px 40px;
+  box-shadow: 0px 0px 16px 0px rgba(119, 115, 170, 0.12);
+}
+
+.specificevent .greensub3{
+  font-weight: normal;
+}
+
+.dropdown .vertical{
+  width: fill;
+  align-items: start;
+}
+
+.faqinput{
+  width: 715px;
+  display: flex;
+  padding: 20px;
+  height: 92px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid #9B9B9B;
+  font-style: italic;
+  margin: 20px 0px;
+}
+
+.specificevent .left, .right{
+  display: flex;
+  width: fit-content;
+  gap: 70px;
+  display: flex;
+  align-items: center;
+}
+
+.specificevent .btn{
+  margin-bottom: 0px;
+}
+
+
+.specificevent .undereventstext{
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  font-weight: bold;
+}
+
+.specificevent .greentext{
+  color: var(--color-green);
+  font-weight: bold;
+}
+.dropdown .faqcomp .active{
+  color: var(--color-green);
+  font-weight: bold;
+  margin-bottom: 0px;
+  transition: var(--speed) ease;
+}
+
+.specificevent .infosec{
+  height: fit-content;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  width: 100%;
+  padding: 20px 100px;
+}
+
+.specificevent .infoleft{
+  width: 70%;
+  display: flex;
+  font-size: 22px;
+  flex-direction: column;
+  gap: 30px;
+  padding-right: 100px;
+}
+
+.specificevent .subheading2{
+  font-size: 38px;
+}
+
+
+
+.specificevent .infobox{
+  width: 30%;
+  gap: 15px;
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 16px 0px rgba(119, 115, 170, 0.12);
+  border-radius: 25px;
+  margin-top: 100px;
+
+}
+
+.specificevent .box1{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.specificevent .instructorname{
+  font-weight: bold;
+}
+
+.specificevent .inst{
+  font-weight: normal;
+  color: #9B9B9B;
+  font-size: 18px;
+}
+
+
+.specificevent .instructorpic{
+  width: 88px;
+  height: 88px;
+  border-radius: 88px;
+  margin-right: 20px;
+}
+
+.specificevent .infoleft2{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.specificevent .includes{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 100px;
+}
+
+.specificevent .includes2{
+  width: fill;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
+.specificevent .eventtext{
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0px;
+  width: 70%;
+  padding: 0px 100px;
+}
+
+.specificevent .green{
+  color: var(--color-green);
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.specificevent .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 30px;
+    background-color: var(--color-green);
+    color: #fff;
+}
+.specificevent .askustext{
+  width: 75%;
+}
+
+@media (max-width: 1300px) {
+  .specificevent .instructorpic{
+    width: 66px;
+    height: 66px;
+  }
+
+  .specificevent .inst{
+    font-size: 16px;
+  }
+  
+  .specificevent .infotext{
+    font-size: 18px
+  }
+
+  .specificevent .instructorname{
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .specificevent .infosec{
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  .specificevent .instructorname{
+    font-size: 22px;
+  }
+  .specificevent .infoleft{
+    width: 100%;
+  }
+
+  .specificevent .infobox{
+    width: 50%;
+    margin-top: 10px;
+  }
+
+  .specificevent .undereventstext{
+    font-size: 20px;
+  }
+
+  .specificevent .btn{
+    font-size: 18px;
+  }
+
+  .specificevent .eventtext{
+    width: 100%;
+    font-size: 18px;
+  }
+
+}
+
+@media (max-width: 984px) {
+  .specificevent .includes2{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+  }
+
+  .specificevent .includes{
+    margin-bottom: 10px;
+  }
+  .specificevent .instructorname{
+    font-size: 22px;
+  }
+  .specificevent .infoleft{
+    width: 100%;
+  }
+
+  .specificevent .infobox{
+    width: 60%;
+    margin-top: 0px;
+  }
+
+  .specificevent .undereventstext{
+    font-size: 16px;
+  }
+
+  .specificevent .btn{
+    font-size: 16px;
+  }
+
+  .specificevent .left{
+    gap: 20px;
+  }
+
+  .specificevent .greensub2{
+    font-size: 20px;
+
+  }
+
+  .specificevent .includes{
+    font-size: 18px;
+  }
+
+  .specificevent .subheading2{
+    font-size: 30px;
+  }
+}

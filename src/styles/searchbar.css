@@ -1,0 +1,55 @@
+.vertical{
+  height: fit-content;
+  width: fill;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sb{
+  height: 125px;
+  width: 1086px;
+  border-radius: 12px;
+  background: #005836;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  box-shadow: 0px 10px 50px 0px rgba(61, 55, 241, 0.25);
+  font-family: 'Roboto Condensed', sans-serif;
+  color: whitesmoke;
+}
+
+.sbh1{
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.sbh2{
+  color: whitesmoke;
+  background-color: #005836;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+  border-bottom: 1px solid whitesmoke;
+}
+
+input::placeholder{
+  color: whitesmoke;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.sbvertical{
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  width: fill;
+  padding: 5px 40px;
+  gap: 10px;
+}

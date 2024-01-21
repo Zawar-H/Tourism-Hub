@@ -1,0 +1,46 @@
+.job-card{
+    border: 1px solid black;
+    width: 400px;
+    padding: 16px;
+    border-radius: 12px;
+}
+
+.job-card h1{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.job-card h2{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+.tags{
+    display: flex;
+    gap:8px;
+}
+
+.tags p{
+    border-radius: 100px;
+    padding: 4px 8px;
+    font-size: 14px;
+    background-color: #E1E1E1;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    /* outline: 1px solid blue; */
+}
+
+@media screen and (max-width: 768px){
+    .cards{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+}

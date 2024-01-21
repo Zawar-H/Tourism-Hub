@@ -1,0 +1,503 @@
+/* Hero Section */
+.home-hero {
+  position: relative;
+  width: 100vw;
+  height: 50vh;
+  overflow: hidden;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("/home-background.jpg");
+  background-size: cover;
+  background-position: center;
+  opacity: 1; /* Adjust the opacity as needed */
+}
+
+.background-image::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Adjust the opacity to control darkness */
+}
+
+.content {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  height: 100%;
+  padding: 20px; /* Adjust padding as needed */
+  margin: 0 auto;
+}
+
+.left-image {
+  width: 50%; /* Adjust the width of the left image */
+  max-height: 60%;
+  object-fit: cover;
+}
+
+.text {
+  flex-grow: 1;
+  padding-left: 20px; /* Adjust padding as needed */
+  color: #fff; /* Text color */
+  max-width: 500px;
+}
+
+.text h1 {
+  font-size: 40px; /* Adjust font size as needed */
+  margin-bottom: 10px; /* Adjust margin as needed */
+  max-width: 100%;
+  font-weight: bold;
+}
+
+.text p {
+  font-size: 18px; /* Adjust font size as needed */
+  max-width: 100%;
+}
+
+.btn-wrapper {
+  display: flex;
+}
+
+/* End of Hero Section */
+
+/* Green Bar below hero */
+
+.home .green-bar {
+  background-color: var(--color-green); 
+  width: 100vw;
+  height: 50px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home .centered-text {
+  color: #ffffff; 
+  margin: 0 auto;
+}
+.underline {
+  text-decoration: underline;
+}
+
+/* End of Green Underline */
+
+.home .landinginfobody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home .landinginfo {
+  font-size: 26px;
+  display: flex;
+  color: #000;
+  width: auto;
+  margin: 3%;
+  text-align: justify;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 39px */
+  letter-spacing: -0.26px;
+}
+
+.home .btn {
+  font-size: 24px;
+  display: flex;
+  width: 20%;
+  height: 30%;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  background: #005836;
+  color: whitesmoke;
+  margin-bottom: 40px;
+}
+
+.home .divider {
+  font-size: 26px;
+  display: flex;
+  width: fill;
+  height: fit-content;
+  padding: 20px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: #005836;
+  color: whitesmoke;
+
+  /* Body 1 - Regular Desk */
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+
+  margin-bottom: 40px;
+}
+
+.home .highlight {
+  border-bottom: 2px solid whitesmoke;
+}
+
+.home .rcd {
+  display: flex;
+}
+
+.home .featured {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 60px;
+}
+
+.home .rc {
+  color: grey;
+  display: flex;
+  text-align: center;
+  font-size: 18px;
+  line-height: 22px; 
+  letter-spacing: 2px;
+}
+
+.home .subheading {
+  color: var(--color-black);
+  /* H3 - Bold Desk */
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 114.286% */
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+
+.home .events {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  height: fit-content;
+  gap: 20px;
+
+}
+
+/* Sign Up section */
+
+.home .underevents {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  flex-direction: row;
+  gap: 50px;
+  margin: 0 auto; /* Center horizontally using auto margin */
+  padding: 13px 30px;
+  max-width: 1440px;
+}
+
+.home .leftimg {
+  background-size: 80%;
+  background-position: center;
+  max-width: 50%;
+  width: 100%;
+  min-height: 600px;
+  background-image: url("/winery.jpg");
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.home .winetext {
+  color: whitesmoke;
+  height: fit-content;
+  display: flex;
+  padding: 40px;
+  align-items: flex-start;
+  flex-direction: column;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px; /* 150% */
+  letter-spacing: 0.5px;
+  background-color: #005836;
+  max-width: 250px;
+  margin: 0px 0px 0px;
+}
+
+.home .slink {
+  font-weight: bold;
+  margin-top: 30px;
+  border-bottom: 1px solid whitesmoke;
+}
+
+.home .righttext {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: fit-content;
+  gap: 30px;
+  flex: 1 0 0;
+  padding: 50px;
+  max-width: 50%;
+}
+
+.home .fancyt {
+  display: flex;
+  color: var(--color-black);
+  font-size: 18px;
+}
+
+.home .subheading2 {
+  color: var(--color-black);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+
+.home .mediumheading {
+  color: var(--color-black);
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.home .btn2 {
+  font-size: 26px;
+  display: flex;
+  width: 30%;
+  height: 70%;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  background: whitesmoke;
+  color: #005836;
+  border: 2px solid #005836;
+  margin-bottom: 30px;
+}
+
+.home .sigu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 130px;
+  width: 70%;
+}
+
+/* End of Sign Up Section */
+
+.greensub {
+  color: var(--color-green);
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.mediumtext {
+  font-size: 24px;
+}
+
+.normtext {
+  font-size: 18px;
+}
+
+.home .logo {
+  height: 87px;
+  width: 200px;
+  margin: 0px 50px;
+}
+
+@media (max-width: 1300px) {
+  .home .winetext {
+    font-size: 18px;
+    padding: 10px;
+  }
+
+  .home .rc {
+    font-size: 14px;
+  }
+
+  .home .subheading {
+    font-size: 28px;
+  }
+
+  .home .righttext {
+    gap: 10px;
+  }
+
+  .home .normtext {
+    font-size: 16px;
+  }
+
+  .home .subheading2 {
+    font-size: 18px;
+  }
+
+  .home .righttext {
+    padding: 10px 0px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .home .winetext {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .home .rc {
+    font-size: 12px;
+  }
+
+  .home .subheading {
+    font-size: 20px;
+  }
+
+  .home .righttext {
+    gap: 10px;
+  }
+
+  .home .normtext {
+    font-size: 16px;
+  }
+
+  .home .subheading2 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 956px) {
+  .home .mediumtext {
+    font-size: 18px;
+  }
+
+  .home .mediumheading {
+    font-size: 22px;
+  }
+
+  .home .greensub {
+    font-size: 32px;
+  }
+
+  .home .btn {
+    font-size: 18px;
+  }
+
+  .home .btn2 {
+    font-size: 20px;
+  }
+
+  .home .divider {
+    font-size: 18px;
+  }
+
+  .home .landinginfo {
+    font-size: 22px;
+  }
+
+  .home .lslanding {
+    margin: 0px;
+  }
+
+  .home .events {
+    flex-direction: column;
+    width: 45%;
+    gap: 10px;
+  }
+
+  .home .header {
+    height: 450px;
+    font-size: 70px;
+  }
+
+  .home .winetext {
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  .home .rc {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .home .mediumtext {
+    font-size: 16px;
+  }
+  .home .greensub {
+    font-size: 28px;
+  }
+
+  .home .landinginfo {
+    font-size: 18px;
+  }
+
+  .home .header {
+    height: 400px;
+    font-size: 60px;
+  }
+
+  .home .winetext {
+    font-size: 18px;
+  }
+  .home .left-image {
+    display: none;
+  }
+  .home .content{
+    justify-content: center;
+    align-items: center;
+  }
+  .home .text {
+    padding: 0;
+    text-align: center;
+  }
+  .home .btn-wrapper {
+    justify-content: center;
+  }
+  .home .underevents {
+    flex-direction: column;
+  }
+  .home .leftimg {
+    min-height: 300px;
+    min-width: 500px;
+    margin: 36px 0;
+  }
+  .home .winetext {
+    display: none;
+  }
+  .home .green-bar > .centered-text {
+    font-size: 16px;
+  }
+
+  .home .sponsors{
+    display: none;
+  }
+  .home .righttext {
+    text-align: center;
+  }
+  .home .rc {
+    display: none;
+  }
+  .home {
+    margin-bottom: 24px;
+  }
+  
+}

@@ -1,0 +1,227 @@
+
+
+.checkout .main_ctr{
+    display: flex;
+    width: fit-content;
+    height: 100%;
+    justify-content: center;
+    margin-top: 4%;
+    margin: 60px auto;
+}
+
+.checkout .main_header{
+    font-size: 60px;
+    font-weight: 600;
+    margin-top: 2%;
+    margin-left: 10%;
+}
+
+.checkout .top_line{
+    display: block;
+    float: right;
+    height: 1px;
+    width: 100%;
+    border: 0;
+    border-top: 2px solid #ccc;
+    padding: 0;
+}
+
+.checkout .type, .detail, .validity, .item_total,
+.sub_price{
+    color: #6d6d6d;
+}
+
+.checkout .card_opts{
+    display: flex;
+    gap: 3%;
+    margin-bottom: 6%;
+}
+
+.checkout .credit{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    width: 300px;
+    height: 50px;
+    border: 2px solid #ccc
+}
+.checkout .credit:hover, .checkout .debit:hover{
+    border-color: #005836;
+}
+
+.checkout .debit{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    width: 300px;
+    height: 50px;
+    border: 2px solid #ccc
+}
+
+.checkout .name, .number{
+    border: 2px solid #ccc;
+    margin-bottom: 5%;
+    padding: 10px;
+    width: 620px;
+    height: 50px;
+}
+
+.checkout .cc, .dc{
+    margin-left: 15%;
+}
+
+.checkout .check_credit, .check_debit{
+    width: 15px; 
+    height: 15px; 
+    accent-color: #005836;
+}
+
+
+.checkout .validity, .cvv{
+    border: 2px solid #ccc;
+    margin-bottom: 5%;
+    padding-top: 10px;
+    width: 300px;
+    padding: 10px;
+
+}
+
+.checkout .cvv{
+    margin-left: 3%;
+}
+
+.checkout .check{
+    width: 15px; 
+    height: 15px; 
+    margin-right: 1%;
+    margin-bottom: 3%;
+    accent-color: #005836;
+}
+
+.checkout .label{
+    font-size: 17px;
+}
+
+.checkout .free_btn{
+    display: block;
+    border: 2px solid #005836;
+    color: #fff;
+    background-color:#005836 ;
+    width: 620px;
+    height: 50px;
+}
+
+.checkout .left_ctr{
+    display: block;
+    height: 100%;
+    width: fit-content;
+}
+
+.checkout .right_ctr{
+    display: block;
+    position: relative;
+    width:fit-content;
+    margin-left: 20px;
+}
+
+
+.checkout .change_ship{
+    display: flex;
+    gap: 67%;
+    width:620px;
+}
+
+.checkout .change{
+    margin-left: 9%;
+    text-decoration: underline;
+    cursor: pointer;
+    color: #005836;
+}
+
+ .checkout .event_pic{
+    height: 70px;
+    border-radius: 12px;
+    margin-top: 4%;
+    margin-left: 4%;
+ }
+
+ .checkout .event_desc{
+    display: flex;
+ }
+
+ .checkout .event_title{
+    font-size: 16px;
+ }
+.checkout .title_add{
+    font-size: 13px;
+    margin-top: 4%;
+    margin-left: 4%;
+}
+
+.checkout .count{
+    display: flex;
+    margin-left: 4%;
+    gap: 10%;
+    margin-bottom: 15%;
+}
+
+.checkout .price{
+    margin-left: 10%;
+}
+
+.checkout .ticket_cnt{
+    border: 2px solid #ccc;
+    margin-left: 20%;
+    width:80px;
+}
+
+.checkout .top_line3{
+    margin-top: 8%;
+    height: 1px;
+    width: 100%;
+    border: 0;
+    border-top: 2px dotted #ccc;
+    padding: 0;
+}
+
+.checkout .shipping{
+    font-size: 15px;
+}
+.checkout .subtotal, .discount, .bill_total{
+    display: flex;
+    gap:65%;
+}
+
+.checkout .sub_price{
+    margin-left: 12%;
+}
+
+.checkout .discount{
+    color: #005836;
+    margin-bottom: 15%;
+}
+.checkout .coupon{
+    margin-left: 2%;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.checkout .top_line4{
+    margin-top: 8.5%;
+    height: 1px;
+    width: 100%;
+    border: 0;
+    border-top: 2px solid #ccc;
+    padding: 0;
+}
+
+.checkout .amt{
+    margin-left: 9%;
+}
+
+@media (max-width: 768px){
+    .checkout .main_ctr{
+        display: block;
+        /* Had trouble putting the "right_ctr" div above "left_ctr" div */
+    }
+}

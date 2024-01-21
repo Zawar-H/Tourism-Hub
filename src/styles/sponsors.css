@@ -1,0 +1,54 @@
+.greensub {
+  color: var(--color-green);
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.mediumtext {
+  font-size: 24px;
+}
+
+.normtext {
+  font-size: 18px;
+}
+.sponsorimg {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+  justify-content: space-between;
+}
+
+.lslanding {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  max-width: 1440px;
+  margin: 80px auto;
+  padding: 0 20px;
+}
+
+.sponsors .logo{
+  height: 15%;
+  width: 15%;
+  margin: 0px;
+}
+
+@media (max-width: 956px) {
+
+  .mediumtext {
+    font-size: 18px;
+  }
+  .greensub{
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  .mediumtext {
+    font-size: 16px;
+  }
+  .greensub{
+    font-size: 28px;
+  }
+}

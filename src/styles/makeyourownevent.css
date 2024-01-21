@@ -1,0 +1,55 @@
+.myosection{
+  width: fill;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  background: linear-gradient(
+    to top,
+    #EEE1FF 0%,
+    #EEE1FF 80%,
+    white 70%,
+    white 100%
+  );
+  
+}
+.myosubheading{
+  color: var(--color-black);
+  /* H3 - Bold Desk */
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 114.286% */
+  text-transform: capitalize; 
+  margin-bottom: 10px;
+}
+
+.myoimg{
+  width: 600px;
+  height: 300px;
+  margin: 0px 70px 0px 150px;
+}
+
+.myobtn{
+  border-radius: 50px;
+  background: var(--Lake-Blue, #0091D8);
+  box-shadow: 0px 10px 50px 0px rgba(61, 55, 241, 0.25);
+  width: 302px;
+  height: 60px;
+  color: whitesmoke;
+  padding: 10px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.rightside{
+  gap: 10px;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column ;
+  width: 350px;
+  margin-top: 50px;
+
+}
